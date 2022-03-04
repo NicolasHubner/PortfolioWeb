@@ -1,5 +1,6 @@
 body {
     text-align: center;
+    background-color: grey;
 }
 
 #nav ul {
@@ -8,3 +9,71 @@ body {
     list-style: none;
 }
 
+#corpo {
+    background-color: rgb(167, 167, 167);
+    margin: auto;
+    border: solid;
+    border-width: 2px; 
+    border-radius: 1px;
+    border-color: black;
+    padding: 1%;
+    width: 50%;
+    box-shadow: 3px 2px 5px black;
+
+}
+#imgnicolas {
+    border-radius: 3%;
+}
+#low {
+    background-color: rgb(167, 167, 167);
+    margin: auto;
+    border: solid;
+    border-width: 2px; 
+    border-radius: 1px;
+    border-color: black;
+    padding: 1%;
+    padding-top: 1px;
+    width: 50%;
+    box-shadow: 3px 2px 5px black;
+    margin-top: 5px;
+}
+
+#paragraph {
+
+    background-color: white;
+    border-radius: 5%;
+    padding: 2px 3% 2px 3%;
+    margin: 10px;
+
+}
+#headers{
+
+    background-color: darkgray;
+    margin-bottom: 10px;
+    display: inline-flex;
+    text-align: center;
+    inline-size: auto;
+    padding-inline-start: 10px;
+    border: 2px solid black;
+    border-radius: 2%;
+    width: 50%;
+
+}
+#headers ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 5px 0px 2px;
+}
+#headers ul {
+    margin-left: 40%;
+}
+#headers p {
+    padding-top: 10px;
+    margin-left: 10px;
+}
+#icones {
+    padding-top: 10px;
+}
+#insta:hover, #linkedin:hover, #git:hover{
+    transform: scale(1.1);
+}
