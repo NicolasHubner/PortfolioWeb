@@ -19,6 +19,7 @@ main{
     margin-top: 100px;
     border-top: 4px solid white;
     padding-top:60px;
+    text-align:justify;
 }
 .skills-container, .projects-container {
     margin-top: 40px;
@@ -34,7 +35,7 @@ main{
 }
 
 .title-skills{
-    margin-top: 280px;
+    margin-top: 180px;
     text-align: center;
 }
 
@@ -45,6 +46,14 @@ main{
     border: 1px white solid;
     border-radius:5px;
 } */
+#skills-icons {
+    width:70%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-between;
+}
 .project-container {
     width: 100%;
     border: 1px white solid;
@@ -53,4 +62,19 @@ main{
     flex-direction: row;
     padding: 40px 20px;
     margin: 20px 0;
+}
+.center {
+    width: 100px;
+    height: 150px;
+    margin: 0 10px;
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+}
+.linkicons {
+    text-decoration: none;
+    color: white;
+}
+.linkicons:hover {
+    transform: scale(1.05)
 }
