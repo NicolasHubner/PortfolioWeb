@@ -1,0 +1,56 @@
+body{
+    background-color: rgba(0, 0, 0, 0.908);
+    color: white;
+    text-align: center;
+}
+.navbar {
+    margin-bottom: 40px;
+}
+main{
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+#home h1 {
+    margin-bottom:2em;
+    font-size: 3em;
+}
+#About {
+    margin-top: 100px;
+    border-top: 4px solid white;
+    padding-top:60px;
+}
+.skills-container, .projects-container {
+    margin-top: 40px;
+    border-top: 4px solid white;
+    padding-top:60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skills-container h5 {
+    margin-top:40px;
+}
+
+.title-skills{
+    margin-top: 280px;
+    text-align: center;
+}
+
+#skills, #projects {
+    padding-top:10px
+}
+/* .projects-container {
+    border: 1px white solid;
+    border-radius:5px;
+} */
+.project-container {
+    width: 100%;
+    border: 1px white solid;
+    border-radius:5px;
+    display: flex;
+    flex-direction: row;
+    padding: 40px 20px;
+    margin: 20px 0;
+}
