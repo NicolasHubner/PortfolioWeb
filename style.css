@@ -21,7 +21,7 @@ main{
     padding-top:60px;
     text-align:justify;
 }
-.skills-container, .projects-container {
+.skills-container, .projects-container, .contact-container {
     margin-top: 40px;
     border-top: 4px solid white;
     padding-top:60px;
@@ -39,7 +39,7 @@ main{
     text-align: center;
 }
 
-#skills, #projects {
+#skills, #projects, #contact {
     padding-top:10px
 }
 /* .projects-container {
@@ -60,6 +60,8 @@ main{
     border-radius:5px;
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
     padding: 40px 20px;
     margin: 20px 0;
 }
@@ -77,4 +79,36 @@ main{
 }
 .linkicons:hover {
     transform: scale(1.05)
+}
+.project-text-link {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.image-project{
+    border-radius:5px;
+}
+.project-text-link > a {
+    text-decoration: none;
+    color: white;
+    border: 1px white solid;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 5px;
+}
+.project-text-link > a:hover{
+    transform: scale(1.05);
+}
+.icon-contacts{
+    width:60px;
+    height:60px;
+}
+.icon-contacts:hover{
+    transform: scale(1.05);
+}
+#contact-container {
+    margin: 40px;
 }
