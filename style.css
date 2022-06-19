@@ -58,10 +58,6 @@ main{
     width: 100%;
     border: 1px white solid;
     border-radius:5px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content:space-between;
     padding: 40px 20px;
     margin: 20px 0;
 }
@@ -82,9 +78,6 @@ main{
 }
 .project-text-link {
     width: 300px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
 }
 .image-project{
     border-radius:5px;
