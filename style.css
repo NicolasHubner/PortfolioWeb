@@ -48,16 +48,15 @@ main{
 } */
 #skills-icons {
     width:70%;
-    display: flex;
+    /* display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-    justify-content:space-between;
+    justify-content:space-between; */
 }
 .project-container {
     width: 100%;
     border: 1px white solid;
-    border-radius:5px;
     padding: 40px 20px;
     margin: 20px 0;
 }
@@ -78,9 +77,6 @@ main{
 }
 .project-text-link {
     width: 300px;
-}
-.image-project{
-    border-radius:5px;
 }
 .project-text-link > a {
     text-decoration: none;
