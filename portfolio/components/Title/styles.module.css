@@ -1,0 +1,151 @@
+.Container {
+  background: linear-gradient(
+    60deg,
+    rgb(192, 192, 192) 0%,
+    rgb(56, 56, 56) 100%
+  );
+  padding: 0;
+  margin: 0;
+  padding-top: 100px;
+  /* height: 200px; */
+  width: 100%;
+  /* height: 100vh; */
+}
+
+.waves {
+  position: relative;
+  width: 100%;
+  /* height:15vh; */
+  margin-bottom: -7px;
+  min-height: 50px;
+  max-height: 100px;
+}
+
+.content {
+  position: relative;
+  height: 20vh;
+  text-align: center;
+  background-color: white;
+}
+
+/* Animation */
+
+.parallax > use {
+  animation: move-forever 25s cubic-bezier(0.55, 0.5, 0.45, 0.5) infinite;
+}
+.parallax > use:nth-child(1) {
+  animation-delay: -2s;
+  animation-duration: 7s;
+}
+.parallax > use:nth-child(2) {
+  animation-delay: -3s;
+  animation-duration: 10s;
+}
+.parallax > use:nth-child(3) {
+  animation-delay: -4s;
+  animation-duration: 13s;
+}
+.parallax > use:nth-child(4) {
+  animation-delay: -5s;
+  animation-duration: 20s;
+}
+@keyframes move-forever {
+  0% {
+    transform: translate3d(-90px, 0, 0);
+  }
+  100% {
+    transform: translate3d(85px, 0, 0);
+  }
+}
+
+.waviy {
+  position: relative;
+}
+.waviy span {
+  position: relative;
+  display: inline-block;
+  font-size: 30px;
+  color: #fff;
+  text-transform: uppercase;
+  animation: flip 2s infinite;
+  animation-delay: calc(0.2s * var(--i));
+  margin-bottom: 250px;
+}
+@keyframes flip {
+  0%,
+  80% {
+    transform: rotateY(360deg);
+  }
+}
+
+.word1 {
+  --i: 1;
+}
+.word2 {
+  --i: 2;
+}
+.word3 {
+  --i: 3;
+}
+.word4 {
+  --i: 4;
+}
+.word5 {
+  --i: 5;
+}
+.word6 {
+  --i: 6;
+}
+.word7 {
+  --i: 7;
+}
+.word8 {
+  --i: 8;
+}
+.word9 {
+  --i: 9;
+}
+.word10 {
+  --i: 10;
+}
+.word11 {
+  --i: 11;
+}
+.word12 {
+  --i: 12;
+}
+.word13 {
+  --i: 13;
+}
+.word14 {
+  --i: 14;
+}
+.word15 {
+  --i: 15;
+}
+.word16 {
+  --i: 16;
+}
+.word17 {
+  --i: 17;
+}
+.word18 {
+  --i: 18;
+}
+.word19{
+  --i:19;
+}
+.word20{
+  --i:20;
+}.word21{
+  --i:21
+}
+.word22{
+  --i:22
+}
+.word23{
+  --i:23
+}
+.word24{
+  --i:24
+}

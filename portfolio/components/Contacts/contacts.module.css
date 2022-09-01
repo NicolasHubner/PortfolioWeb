@@ -1,0 +1,8 @@
+.Icon {
+  width: 50px;
+  cursor: pointer;
+  margin: 10px;
+}
+.Icon:hover{
+  transform: scale(1.05);
+}
