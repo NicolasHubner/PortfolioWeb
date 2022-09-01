@@ -102,7 +102,7 @@ href: 'https://nodejs.org/en/'
   name: 'Adobe PhotoShop',
   image: '/adobephotoshopicon_84144.png',
   href: 'https://www.adobe.com/br/products/photoshop.html'
-}
+},
 ,
 // {
 //   name: '',
