@@ -9,12 +9,12 @@ export const skillsArray = [
   href: 'https://developer.mozilla.org/pt-BR/docs/Web/CSS'
 },
 {
-  name: 'Java Script',
+  name: 'JavaScript',
   image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg',
   href: 'https://www.javascript.com/'
 },
 {
-  name: 'Type Script',
+  name: 'TypeScript',
   image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg',
   href: 'https://www.typescriptlang.org/'
 },
