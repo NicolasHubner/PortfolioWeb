@@ -22,7 +22,7 @@ export default function Skills() {
           </Box>
         ))}
       </Box>
-      <Typography variant="h4" py={5}>Linguagens mais usadas </Typography>.
+      <Typography variant="h4" py={5}>Linguagens mais usadas</Typography>
       <img className="image" src="https://github-readme-stats.vercel.app/api/top-langs/?username=NicolasHubner&amp;theme=great-gatsby&amp;bg_color=000312&amp;border_color=000312&amp;hide_title=true&amp;layout=compact" alt="Linguagens mais usadas" />
     </>
   )

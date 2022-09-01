@@ -2,7 +2,7 @@ export const skillsArray = [
   {name: 'HTML',
   image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg',
   href: 'https://developer.mozilla.org/pt-BR/docs/Web/HTML'
-}, 
+},
 {
   name: 'CSS',
   image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg',
@@ -78,26 +78,44 @@ export const skillsArray = [
   image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg',
   href: 'https://jestjs.io/'
 },
-// {
-// name: 'Jest',
-// image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg',
-// href: 'https://jestjs.io/'
-// },
+{
+name: 'NodeJS',
+image: 'https://img.icons8.com/color/48/000000/nodejs.png',
+href: 'https://nodejs.org/en/'
+},
+{
+  name: 'Docker',
+  image: '/docker_icon_146192.svg',
+  href: 'https://www.docker.com/'
+},
+{
+  name: 'MongoDB',
+  image: '/mongodb_original_wordmark_logo_icon_146425.svg',
+  href: 'https://www.mongodb.com/'
+},
+{
+  name: 'MySQL',
+  image: '/mysql_original_wordmark_logo_icon_146417.svg',
+  href: 'https://www.mysql.com/'
+},
+{
+  name: 'Adobe PhotoShop',
+  image: '/adobephotoshopicon_84144.png',
+  href: 'https://www.adobe.com/br/products/photoshop.html'
+}
+,
 // {
 //   name: '',
 //   image: '',
 //   href: ''
-// },
+// }
+,
 // {
 //   name: '',
 //   image: '',
 //   href: ''
-// },
-// {
-//   name: '',
-//   image: '',
-//   href: ''
-// },
+// }
+,
 // {
 //   name: '',
 //   image: '',
