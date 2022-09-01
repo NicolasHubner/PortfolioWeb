@@ -79,6 +79,11 @@ export const skillsArray = [
   href: 'https://jestjs.io/'
 },
 // {
+// name: 'Jest',
+// image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg',
+// href: 'https://jestjs.io/'
+// },
+// {
 //   name: '',
 //   image: '',
 //   href: ''

@@ -12,14 +12,14 @@ export default function Skills() {
   return (
     <>
       <Typography id="Skills" variant="h3" py={5}>Skills</Typography>
-      <Box sx={{ display: 'flex', flexDirection: 'row', width: '80%', maxWidth: '650px' ,flexWrap: 'wrap', justifyContent: 'space-between',alignItems: 'center', margin: '0 auto', marginY: '50px'}}>
+      <Box sx={{ display: 'flex', flexDirection: 'row', width: '80%', maxWidth: '900px', flexWrap: 'wrap', justifyContent: 'space-between', alignItems: 'center', margin: '0 auto', marginY: '50px' }}>
         {skillsArray.map((skill: ISkill, index: number) => (
-          <a key={index} href={skill.href} target="_blank" rel="noopener noreferrer">
-            <Box className={style.tag} sx={{ display: 'flex', flexDirection: 'column', width: '30%', height: '140px', padding: '10px', marginBottom: '20px', alignItems: 'center'}}>
+          <Box className={style.tag} sx={{ display: 'flex', flexDirection: 'column', width: '25%', height: '140px', padding: '10px', marginBottom: '20px', alignItems: 'center' }}>
+            <a key={index} href={skill.href} target="_blank" rel="noopener noreferrer">
               <img src={skill.image} alt={skill.name} width="80" />
-              <Typography sx={{marginTop: '10px'}}>{skill.name}</Typography>
-            </Box>
-          </a>
+              <Typography sx={{ marginTop: '10px' }}>{skill.name}</Typography>
+            </a>
+          </Box>
         ))}
       </Box>
       <Typography variant="h4" py={5}>Linguagens mais usadas </Typography>.

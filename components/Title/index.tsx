@@ -9,25 +9,15 @@ export default function About() {
   return (
     <>
       <section className={styles.Container}>
-        <Typography variant="h3" pt={10}>Nicolas Hübner Santos</Typography>
-        {/* <Typography className={styles.waviy} variant="h5" py={1}>Desenvolver Full Stack</Typography> */}
-        <div className={styles.waviy}>
+        <div className={styles.Title}>
+          <Typography variant="h3" pt={15}>Nicolas Hübner Santos</Typography>
+          <div className={styles.waviy}>
 
-        {SpliStack.map((item, i) =>(
-          <span key={i} className={styles[`word${i + 1}`]}>{item}&nbsp;</span>
-          ))}
+            {SpliStack.map((item, i) => (
+              <span key={i} className={styles[`word${i + 1}`]}>{item}&nbsp;</span>
+            ))}
           </div>
-        {/* <div className={styles.body}>
-
-          <h1 className={styles.h1}>
-            Programador
-            <div className={styles.message}>
-              {SpliStack.map((item, i) => (
-                <div key={i} className={styles[`word${i + 1}`]}>{item}</div>
-              ))}
-            </div>
-          </h1>
-        </div>*/}
+        </div>
         <div>
           <svg className={styles.waves} xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink"
             viewBox="0 24 150 28" preserveAspectRatio="none" shapeRendering="auto">
