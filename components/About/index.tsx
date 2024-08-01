@@ -3,7 +3,7 @@ import { Box, Typography } from "@mui/material";
 export default function About() {
   return (
     <>
-      <Typography id="Sobre" variant="h3" pt={10}>Sobre</Typography>
+      <Typography id="About" variant="h3" pt={10}>Sobre</Typography>
       <Box sx={{ typography: 'body1', width: '60%', textAlign: 'justify', margin: '0 auto', marginBottom: '80px', marginTop: '100px' }}>
         &nbsp;&nbsp;&nbsp;&nbsp;Ao longo da minha jornada me deparei com muitas áreas: engenharia, medicina, publicidade e um pouco do ramo alimentício.<br></br><br></br>
         &nbsp;&nbsp;&nbsp;&nbsp;Atualmente, faço publicidade e propaganda em que me aprofundei em alguns conhecimentos de marketing e Adobe PhotoShop, e estudo Desenvolvimento WEB na Trybe. No curso de programação já aprendi sobre HTML, CSS, JavaScript, React, Bash, Jest, e GIT. Além disso, foram passadas alguns frameworks de estilização como Bootstrap, Material UI e Tailwind.

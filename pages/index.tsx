@@ -5,23 +5,36 @@ import NavBar from '../components/NavBar'
 import Skills from '../components/Skills'
 import About from '../components/About'
 import Project from '../components/Projects'
+import {createTheme, ThemeProvider} from '@mui/material/styles';
+
+
 
 const Home: NextPage = () => {
 
-  // const handleCloseNavMenu = (href) => {
-    
-
-  // };
+    const theme = createTheme({
+        palette: {
+          mode: 'dark',
+        },
+        typography: {
+          fontFamily: 'Maven Pro',
+          fontWeightLight: 300,
+          fontWeightRegular: 400,
+          fontWeightMedium: 500,
+          fontWeightBold: 700,
+        },
+      });
 
   return (
     <>
+        <ThemeProvider theme={theme}>
       <NavBar />
       <Title />
-      <About/>
+      {/*<About/>*/}
       <Skills />
       <Project/>
       <Contacts />
 
+            </ThemeProvider>
     </>
   )
 }

@@ -12,7 +12,7 @@ interface IProject {
 export default function Project() {
   return (
     <>
-      <Typography mt={20} id="Projetos" variant="h3" py={5}>Projetos</Typography>
+      <Typography mt={20} id="Projects" variant="h3" py={5}>Projects</Typography>
       {projects.map((project: IProject, i: number) => (
         <Box key={i} sx={{ display: 'flex', flexDirection: 'row', marginY: 10, justifyContent: 'center'}}>
           <img src={project.image} alt={project.name} className={styles.image} />

@@ -16,7 +16,7 @@ import { Link } from '@mui/material';
 import Breadcrumbs from '@mui/material/Breadcrumbs';
 
 
-const pages = ['Sobre', 'Skills', 'Projetos', 'Contatos'];
+const pages = ['About', 'Skills', 'Projects', 'Contact'];
 
 const ResponsiveAppBar = () => {
   const [anchorElNav, setAnchorElNav] = React.useState<null | HTMLElement>(null);
