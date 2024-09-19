@@ -17,6 +17,13 @@
   padding-top: 8vh;
 }
 
+@media (max-width: 768px) {
+  .ContainerTitle{
+    padding-top: 0;
+    flex-direction: column;
+  }
+}
+
 .Title{
   display: flex;
   flex-direction: column;

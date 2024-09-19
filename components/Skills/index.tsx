@@ -11,8 +11,8 @@ export default function Skills() {
 
   return (
     <>
-      <Typography id="Skills" variant="h3" py={5}>Skills</Typography>
-      <Box sx={{ display: 'flex', flexDirection: 'row', width: '80%', maxWidth: '900px', flexWrap: 'wrap', justifyContent: 'space-between', alignItems: 'center', margin: '0 auto', marginY: '50px' }}>
+      <Typography id="Skills" variant="h3" py={10}>Skills</Typography>
+      <Box sx={{ display: 'flex', flexDirection: 'row', width: '80%', maxWidth: '900px', flexWrap: 'wrap', justifyContent: 'flex-start', alignItems: 'center', margin: '0 auto', marginY: '50px' }}>
         {skillsArray.map((skill: ISkill | any, index: number) => (
           <Box className={style.tag} sx={{ display: 'flex', flexDirection: 'column', width: '25%', height: '140px', padding: '10px', marginBottom: '20px', alignItems: 'center', justifyContent: 'space-between'}}>
             <a key={index} href={skill.href} target="_blank" rel="noopener noreferrer">
@@ -22,8 +22,8 @@ export default function Skills() {
           </Box>
         ))}
       </Box>
-      <Typography variant="h4" py={5}>Linguagens mais usadas</Typography>
-      <img className="image" src="https://github-readme-stats.vercel.app/api/top-langs/?username=NicolasHubner&amp;theme=great-gatsby&amp;bg_color=000312&amp;border_color=000312&amp;hide_title=true&amp;layout=compact" alt="Linguagens mais usadas" />
+      {/*<Typography variant="h4" py={5}>Linguagens mais usadas</Typography>*/}
+      {/*<img className="image" src="https://github-readme-stats.vercel.app/api/top-langs/?username=NicolasHubner&amp;theme=great-gatsby&amp;bg_color=000312&amp;border_color=000312&amp;hide_title=true&amp;layout=compact" alt="Linguagens mais usadas" />*/}
     </>
   )
 }

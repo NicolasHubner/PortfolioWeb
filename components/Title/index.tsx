@@ -26,16 +26,14 @@ export default function About() {
 
                         <Box>
                             <Typography
-                                variant="body1" fontSize={'18px'} pt={4} width={'90%'} textAlign={'justify'}>Originally
-                                from the United States, the educational and professional journey has taken through
-                                diverse fields like engineering, medicine, and marketing. In a previous role,
-                                collaborating with a company that handled a $24k monthly invoice and served 4,000 users
-                                significantly improved software development skills, particularly in React. Additionally,
-                                it provided valuable insights into managing large-scale operations and addressing
-                                diverse user needs.
-                                Today, leading mobile app development for one of Brazil's top three accounting firms
-                                involves serving 120,000 users. This role offers an opportunity to apply expertise in
-                                React to enhance user experience and drive company growth.</Typography>
+                                variant="body1" fontSize={'18px'} pt={4} width={'90%'} textAlign={'justify'}>At Pontua, my focus has been on developing React Native mobile applications, enhancing user experiences for a
+                                growing base of 40,000+. My approach centers around implementing CI/CD tools, which empowers the team to deploy
+                                features with efficiency and reliability. With a Bachelor's degree in Advertising and Public Relations from Universidade
+                                Federal de Minas Gerais and Computerer Civil Engineer, I merge technical proficiency with a deep understanding of
+                                user engagement strategies.
+                                <br/>
+                                <br/>
+                                With over 5 years of experience, my core competencies lie in crafting scalable architectures and optimizing deployment processes. Contributing to Pontua's success, I've executed projects from inception to launch, advocating for technologies that assure maintainability and future growth. Collaborative by nature, I take pride in our collective achievements which are rooted in a shared vision of driving innovation and fostering user satisfaction.</Typography>
                         </Box>
                     </Box>
 

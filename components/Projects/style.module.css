@@ -1,39 +1,78 @@
 .image {
-  width: 400px;
-  border-radius: 10px;
+  width: 10em;
+  height: 10em;
+  border-radius: 10em;
+
 }
 
 .ContainerProjects {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+  width: 70%;
+  margin: 0 auto;
 }
 
-/*.ContainerViewProject:hover {*/
-/*  background-color: rgb(240, 240, 240);*/
-/*}*/
+@media (max-width: 768px) {
+  .ContainerProjects {
+    flex-direction: column;
+  }
+}
 
 .ContainerViewProject{
   display: flex;
   flex-direction: row;
+  align-items: center;
   margin-top: 12px;
-  justify-content: center;
-  background-color: lightgray;
+  justify-content: flex-start;
+  padding: 24px 24px;
+  border-color: white;
+  border-width: 1px;
+  border-style: solid;
   border-radius: 12px;
-  padding: 12px;
-  width: 60%;
+  width: 40%;
 }
 
-.Icon {
+.ContainerViewProjectInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: 24px;
+}
+
+.TextInfo {
+  text-align: left;
+}
+
+#IconsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 24px;
+}
+
+.IconContainer {
   width: 50px;
   height: 50px;
   padding: 12px;
-  background-color: white;
   border-radius: 10px;
-  border: 1px solid black;
+  border: 1px solid white;
   cursor: pointer;
 }
 
-.Icon:hover {
-  background-color: rgb(240, 240, 240);
+.IconContainer:hover {
+  background-color: #ffffff;
+}
+
+.IconContainer:hover .Icon {
+  color: black;
+}
+
+.Icon {
+  color: white;
+  width: 24px;
+  height: 24px;
 }
