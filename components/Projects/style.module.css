@@ -54,6 +54,14 @@
   }
 }
 
+@media (max-width: 500px) {
+  .ContainerViewProject {
+    flex-direction: column;
+    gap: 16px;
+
+  }
+}
+
 .ContainerViewProjectInfo {
   display: flex;
   flex-direction: column;

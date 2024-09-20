@@ -52,9 +52,9 @@ export default function NavBar(props: Props) {
             <List>
                 {navItems.map((item) => (
                     <ListItem key={item} disablePadding>
-                        <ListItemButton sx={{textAlign: 'center'}}>
+                        <Link href={`#${item}`} style={{textAlign: 'center', width: '100%'}}>
                             <ListItemText primary={item}/>
-                        </ListItemButton>
+                        </Link>
                     </ListItem>
                 ))}
             </List>
@@ -73,7 +73,7 @@ export default function NavBar(props: Props) {
                         aria-label="open drawer"
                         edge="start"
                         onClick={handleDrawerToggle}
-                        sx={{mr: 2, display: {sm: 'none'}}}
+                        sx={{mr: 2, display: {sm: 'none'}, color: 'black'}}
                     >
                         <MenuIcon/>
                     </IconButton>
