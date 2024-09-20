@@ -1,3 +1,44 @@
-.tag:hover{
-  transform: scale(1.06);
+
+
+.ContainerSkills {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Adjust the number of columns */
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 2rem auto;
+}
+
+@media (max-width: 1268px) {
+    .ContainerSkills {
+        width: 60%;
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .ContainerSkills {
+        width: 80%;
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 500px) {
+    .ContainerSkills {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+}
+    
+
+.ViewSkill {
+    width: 12em;
+    height: 12em;
+}
+
+.ViewSkill:hover{
+    transform: scale(1.06);
 }

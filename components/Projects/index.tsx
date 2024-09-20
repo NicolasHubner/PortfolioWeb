@@ -4,6 +4,8 @@ import AndroidIcon from '@mui/icons-material/Android';
 import IOSIcon from '@mui/icons-material/Apple';
 import LanguageIcon from '@mui/icons-material/Language';
 import {projects, ProjectType} from './projects';
+import IconButton from "@mui/material/IconButton";
+import Button from "@mui/material/Button";
 
 export default function Project() {
   return (
@@ -21,34 +23,42 @@ export default function Project() {
 
                 <p className={styles.TextInfo}><strong>Languages</strong>{`: ${project.Language}`}</p>
 
-                <Box id={styles.IconsContainer}>
-                  {project.linkAndroid && (<Icon className={styles.IconContainer}
+                <Box className={styles.IconsContainer}>
+                  {project.linkAndroid && (<Button
+                          sx={{borderStyle: 'solid', borderColor: 'white', borderWidth: 1}}
+                          className={styles.IconContainer}
                       onClick={() => window.open(project.linkAndroid, '_blank')}
                 >
                     <AndroidIcon className={styles.Icon}/>
-                </Icon>
+                </Button>
                   )}
 
-                  {project.linkAndroid2 && (<Icon className={styles.IconContainer}
+                  {project.linkAndroid2 && (<Button
+                          sx={{borderStyle: 'solid', borderColor: 'white', borderWidth: 1}}
+                          className={styles.IconContainer}
                                                  onClick={() => window.open(project.linkAndroid, '_blank')}
                       >
                         <AndroidIcon className={styles.Icon}/>
-                      </Icon>
+                      </Button>
                   )}
 
-                  {project.linkiOS && (<Icon className={styles.IconContainer}
+                  {project.linkiOS && (<Button
+                          sx={{borderStyle: 'solid', borderColor: 'white', borderWidth: 1}}
+                          className={styles.IconContainer}
                       onClick={() => window.open(project.linkiOS, '_blank')}
                 >
                     <IOSIcon className={styles.Icon}/>
-                </Icon>
+                </Button>
                     )}
 
                   {project.link && (
-                      <Icon className={styles.IconContainer}
+                      <Button
+                          sx={{borderStyle: 'solid', borderColor: 'white', borderWidth: 1}}
+                          className={styles.IconContainer}
                         onClick={() => window.open(project.link, '_blank')}
                   >
                     <LanguageIcon className={styles.Icon}/>
-                  </Icon>
+                  </Button>
                     )}
                 </Box>
             </Box>

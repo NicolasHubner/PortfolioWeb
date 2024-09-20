@@ -1,13 +1,8 @@
 .Container {
-  /*background: linear-gradient(*/
-  /*  60deg,*/
-  /*  rgb(192, 192, 192) 0%,*/
-  /*  rgb(56, 56, 56) 100%*/
-  /*);*/
   padding-top: 100px;
-  width: 100%;
   height: 100vh;
 }
+
 .ContainerTitle{
   width: 100%;
   justify-content: center;
@@ -17,7 +12,7 @@
   padding-top: 8vh;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1268px) {
   .ContainerTitle{
     padding-top: 0;
     flex-direction: column;
@@ -30,6 +25,23 @@
   gap: 12px;
   justify-content: center;
   align-items: flex-start;
+}
+.SubTitleContainer{
+  display: flex;
+  align-items: flex-start;
+}
+
+@media (max-width: 1268px) {
+  .Title{
+    align-items: center;
+  }
+  .SubTitle{
+    text-align: center;
+  }
+  .SubTitleContainer{
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 .waves {

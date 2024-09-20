@@ -1,11 +1,15 @@
 import {Box, Container, Typography} from "@mui/material";
 import styles from './styles.module.css'
 import Image from "next/image";
+import {useMediaQuery} from "@mui/system";
 
 export default function About() {
     const stack = "Software Engineer Developer"
 
     const SpliStack = stack.split('')
+
+    const isMediaQuery760 = useMediaQuery('(max-width: 760px)')
+
 
     return (
         <>
@@ -24,8 +28,9 @@ export default function About() {
                             </div>
                         </Box>
 
-                        <Box>
+                        <Box className={styles.SubTitleContainer}>
                             <Typography
+                                className={styles.SubTitle}
                                 variant="body1" fontSize={'18px'} pt={4} width={'90%'} textAlign={'justify'}>At Pontua, my focus has been on developing React Native mobile applications, enhancing user experiences for a
                                 growing base of 40,000+. My approach centers around implementing CI/CD tools, which empowers the team to deploy
                                 features with efficiency and reliability. With a Bachelor's degree in Advertising and Public Relations from Universidade
@@ -37,15 +42,14 @@ export default function About() {
                         </Box>
                     </Box>
 
-                    <Box alignItems={'center'}>
+                    {!isMediaQuery760 && (<Box alignItems={'center'}>
                         <Image
-                            objectFit={'cover'}
                             width={474}
                             height={526}
                             quality={100}
                             src={'/guyWorking.png'} alt={'guyWorking'}
                         />
-                    </Box>
+                    </Box>)}
 
 
                 </Container>
