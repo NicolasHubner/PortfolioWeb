@@ -17,11 +17,13 @@ export default function Project() {
           <img src={project.image} alt={project.name} className={styles.image} />
 
             <Box className={styles.ContainerViewProjectInfo}>
+              <Box style={{flexGrow: 1}}>
                 <Typography variant="h5">{project.name}</Typography>
 
                 <p className={styles.TextInfo}><strong>Description</strong>{`: ${project.description}`}</p>
 
                 <p className={styles.TextInfo}><strong>Languages</strong>{`: ${project.Language}`}</p>
+              </Box>
 
                 <Box className={styles.IconsContainer}>
                   {project.linkAndroid && (<Button
