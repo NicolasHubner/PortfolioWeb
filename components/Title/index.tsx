@@ -32,7 +32,7 @@ export default function About() {
                             <Typography
                                 className={styles.SubTitle}
                                 variant="body1" fontSize={'18px'} pt={4} width={'90%'} textAlign={'justify'}>At Pontua, my focus has been on developing React Native mobile applications, enhancing user experiences for a
-                                growing base of 40,000+. My approach centers around implementing CI/CD tools, which empowers the team to deploy
+                                growing base of 120,000+. My approach centers around implementing CI/CD tools, which empowers the team to deploy
                                 features with efficiency and reliability. With a Bachelor's degree in Advertising and Public Relations from Universidade
                                 Federal de Minas Gerais and Computerer Civil Engineer, I merge technical proficiency with a deep understanding of
                                 user engagement strategies.
