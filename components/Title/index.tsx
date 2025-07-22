@@ -38,7 +38,7 @@ export default function About() {
                                 user engagement strategies.
                                 <br/>
                                 <br/>
-                                With over 5 years of experience, my core competencies lie in crafting scalable architectures and optimizing deployment processes. Contributing to Pontua's success, I've executed projects from inception to launch, advocating for technologies that assure maintainability and future growth. Collaborative by nature, I take pride in our collective achievements which are rooted in a shared vision of driving innovation and fostering user satisfaction.</Typography>
+                                With over 7 years of experience, my core competencies lie in crafting scalable architectures and optimizing deployment processes. Contributing to Pontua's success, I've executed projects from inception to launch, advocating for technologies that assure maintainability and future growth. Collaborative by nature, I take pride in our collective achievements which are rooted in a shared vision of driving innovation and fostering user satisfaction.</Typography>
                         </Box>
                     </Box>
 
